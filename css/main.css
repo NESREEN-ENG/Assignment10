@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #3e4646;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#home {
+    height: 100vh;
+}
+
+ .info h1 {
+    color: #efa70a;
+    font-weight:500;
+    font-size:2.5rem;
+    line-height:3rem;
+}
+
+ .info {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+ .info input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+ .info input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+ .info input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+ .info p a{
+    text-decoration:none ;
+}
+ .info p a:hover{
+    text-decoration: underline;
+}
+#login{
+    height: 75vh;
+}
+
+/* button { 
+    transition:color 1ms ;
+}
+ .click:hover{
+    color: #17a2b8;
+ }
+
